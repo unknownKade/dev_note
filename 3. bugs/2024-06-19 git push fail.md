@@ -10,6 +10,6 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-Occurs because of 
+Issue with windows support of Obsidian git plugin
 ### Solution
 - 
