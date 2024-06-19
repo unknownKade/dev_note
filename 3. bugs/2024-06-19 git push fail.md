@@ -10,6 +10,6 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-Issue with windows support of Obsidian git plugin
+Issue with windows support of Obsidian git community plugin
 ### Solution
-- 
+Solution is to use HTTPS 
