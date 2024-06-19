@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1f0884c70e0c08b9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f01573341d805d3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "919b386682aee6e8",
         "type": "tabs",
         "children": [
@@ -29,8 +11,12 @@
             "id": "5916909bd44f10e4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "0. Contents/2. Study Contents.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -99,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0. Contents/2. Study Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0. Contents/2. Study Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0. Contents/2. Study Contents.md"
+              }
             }
           }
         ]
@@ -156,8 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5916909bd44f10e4",
+  "active": "5b1b4629ca8f1021",
   "lastOpenFiles": [
-    "Welcome.md"
+    "2. study/Network",
+    "2. study/OOP",
+    "2. study/Java/Java Versions.md",
+    "0. Contents/Untitled.md",
+    "0. Contents/2. Study Contents.md",
+    "0. Contents",
+    "9. attachements",
+    "2. Study/Untitled 1.md",
+    "2. study/Java/Synchronized.md",
+    "3. bugs/2024-01-02 build bug.md",
+    "3. bugs",
+    "2. study/Java",
+    "Welcome.md",
+    "2. study",
+    "1. projects"
   ]
 }
