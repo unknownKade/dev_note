@@ -4,4 +4,6 @@ Commonly used 3-tier layered architecture. The layers are usually decoupled usin
 - Logic
 - Data
 ### Hexagonal Architecture
-A clean architecture using ports and adapters for interacting with the outside of the program. Ports are 
+A clean architecture using ports and adapters for interacting with the outside of the program.
+- Port : custom interface 
+- Adapter : converts output of port to interact with other 
