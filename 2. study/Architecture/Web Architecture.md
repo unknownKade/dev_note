@@ -1,8 +1,8 @@
 ### Layered Architecture
-Commonly used 3-tier layered architecture consisting of Presentation, Logic Layer, . The layers are usually decoupled using abstaraction and Dependency Injection.
-- Presentation Layer
-- Logic
-- Data
+Commonly used 3-tier layered architecture. The layers are usually decoupled using abstaraction and Dependency Injection.
+- Presentation Layer : presents data 
+- Logic Layer : contains business logic
+- Data : data ling
 
 ### Domain Driven Design
 Each domain is 
