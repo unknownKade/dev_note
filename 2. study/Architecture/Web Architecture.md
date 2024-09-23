@@ -1,11 +1,11 @@
 ### Layered Architecture
 Commonly used 3-tier layered architecture. The layers are usually decoupled using abstaraction and Dependency Injection.
-- Presentation Layer : presents data 
+- Presentation Layer : presents data to end-user
 - Logic Layer : contains business logic
-- Data : data ling
+- Data : controls data persistence
 
 ### Domain Driven Design
-Each domain is 
+Each domain is responsible for its own business logic. They are o
 ### Hexagonal Architecture
 A clean architecture using ports and adapters for interacting with the outside of the program.
 - Port : custom interface to application. Ports remain the same regardless of what the external source is.
