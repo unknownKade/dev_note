@@ -1,5 +1,5 @@
 ### Layered Architecture
-Commonly used 3-tier layered architecture. These layers are highly coupled to each other. 
+Commonly used 3-tier layered architecture. The layers are usually decoup
 - Presentation Layer
 - Logic
 - Data
