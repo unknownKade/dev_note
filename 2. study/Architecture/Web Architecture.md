@@ -5,4 +5,4 @@
 - Logic
 - Data
 ### Hexagonal Architecture
-A clean architectore 
+A clean architecture using ports and adapters
