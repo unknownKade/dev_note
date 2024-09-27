@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. study/Architecture/Web Architecture.md",
+                "file": "1. projects/Alogirthms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. study/Architecture/Web Architecture.md",
+                "file": "1. projects/Alogirthms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. study/Architecture/Web Architecture.md",
+                "file": "1. projects/Alogirthms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. study/Architecture/Web Architecture.md"
+                "file": "1. projects/Alogirthms.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "5916909bd44f10e4",
   "lastOpenFiles": [
-    "2. study/Java/Java Synchronized.md",
     "2. study/Architecture/Web Architecture.md",
+    "1. projects/Alogirthms.md",
+    "2. study/Java/Java Synchronized.md",
     "3. bugs/2024-01-02 build bug.md",
     "9. attachements/Pasted image 20230928171205.png",
     "3. bugs/2024-06-19 git push fail.md",
