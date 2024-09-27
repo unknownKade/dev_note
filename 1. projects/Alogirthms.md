@@ -10,6 +10,7 @@
 	- insert, remove, search O(1)  worst case O(n)
 	- inorder O(nlogn)
 	- space O(n) n is porpotional to unique keys
+	- ``hashmap = {} hashmap[key] = n``
 - TreeMap:
 	- insert, remove, serach O(logn)
 	- inorder O(n)
