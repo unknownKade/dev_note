@@ -7,6 +7,7 @@
 - no order -> makes indorder traversal inefficient
 - useful for finding unique, count, frequency
 - Hash Sets :
+	- ``hashset = set() hashset.add(n)
 - Hash Maps : Similar to  hash sets but keys point to another seperate value
 	- insert, remove, search O(1)  worst case O(n)
 	- inorder O(nlogn)
