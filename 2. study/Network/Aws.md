@@ -11,9 +11,9 @@
 
 ```shell
 chmod u+x gradlew #make project jar
-sudo apt update
-sudo apt-cache search jdk | grep openjdk-11
-sudo apt install openjdk-11-jdk
+sudo apt update 
+sudo apt-cache search jdk | grep openjdk-17
+sudo apt install openjdk-17-jdk
 java --version
 ./gradlew build
 ```
