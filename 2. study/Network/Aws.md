@@ -1,5 +1,5 @@
 
 ### EC2
 
-- launch instnace
-- 
+- launch instance
+- push to remote
