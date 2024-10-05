@@ -1,7 +1,7 @@
 ```shell
 clear
 cd
-ls
+ls [flags] [directory]
 
 pwd #current path
 ```
