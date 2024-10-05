@@ -11,5 +11,8 @@ pwd #current path
 mkdir #new dir
 touch #new file
 rm #delete
+cp #copy
+mv #move
+
 
 ```
