@@ -10,5 +10,5 @@
 - auto restart server with cron
 
 ```
-chmod u+x gradlew
+chmod u+x gradlew #make project jar
 ```
