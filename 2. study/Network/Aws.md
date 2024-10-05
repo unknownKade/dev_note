@@ -7,4 +7,4 @@
 - project test and build
 - run on background with nohup
 - log errors
-- 
+- auto restart server with cron
