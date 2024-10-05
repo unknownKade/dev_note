@@ -15,5 +15,6 @@ sudo apt update
 sudo apt-cache search jdk
 sudo apt-cache search jdk | grep openjdk-11
 sudo apt install openjdk-11-jdk
-java --
+java --version
+./gradlew build
 ```
