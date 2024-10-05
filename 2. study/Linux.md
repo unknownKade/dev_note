@@ -12,7 +12,7 @@ mkdir #new dir
 touch #new file
 rm #delete
 cp #copy
-mv #move
-
+mv [file] [to] #move
+ln #link
 
 ```
