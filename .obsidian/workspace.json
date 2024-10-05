@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. study/Linux.md",
+                "file": "2. study/Network/Aws.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. study/Linux.md",
+                "file": "2. study/Network/Aws.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. study/Linux.md",
+                "file": "2. study/Network/Aws.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. study/Linux.md"
+                "file": "2. study/Network/Aws.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "5916909bd44f10e4",
   "lastOpenFiles": [
+    "2. study/Network/Linux.md",
+    "2. study/Network/Aws.md",
     "1. projects/Algorithms.md",
-    "2. study/Linux.md",
     "2. study/Architecture/Web Architecture.md",
     "2. study/Java/Java Synchronized.md",
     "3. bugs/2024-01-02 build bug.md",
