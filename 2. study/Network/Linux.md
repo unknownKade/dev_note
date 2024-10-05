@@ -15,5 +15,10 @@ cp #copy
 mv [file] [to] #move
 ln [target] [link name] #hard link
 	-s #symbolic link
+```
+
+```shell
+sudo apt update
+sudo apt-cache search jdk
 
 ```
