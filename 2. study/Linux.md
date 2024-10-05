@@ -13,6 +13,6 @@ touch #new file
 rm #delete
 cp #copy
 mv [file] [to] #move
-ln #link
+ln [target] [link name] #link
 
 ```
