@@ -8,3 +8,7 @@
 - run on background with nohup
 - log errors
 - auto restart server with cron
+
+```
+chmod u+x gradlew
+```
