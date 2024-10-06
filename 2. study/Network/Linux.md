@@ -30,5 +30,5 @@ sudo apt install openjdk-11-jdk
 
 ```shell
 netstat -nlpt #monitor active internet connections
-
+ps -ef
 ```
