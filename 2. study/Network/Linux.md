@@ -26,9 +26,15 @@ sudo apt install openjdk-11-jdk
 ```
 
 
+### Process
+```shell
+ps -ef
+kill
+```
+
 ### Network
 
 ```shell
 netstat -nlpt #monitor active internet connections
-ps -ef
+
 ```
