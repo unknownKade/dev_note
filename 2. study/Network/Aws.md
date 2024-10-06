@@ -8,8 +8,8 @@
 - run on background with nohup
 ```shell
 cd test-aws/build/libs
-nohup java -jar *.jar #runs program on foreground
-nohup java -jar *.jar & #
+nohup  #runs program on foreground
+nohup java -jar *.jar & #rims pm background
 netstat -nlpt #check port
 ```
 - log errors
@@ -22,4 +22,5 @@ sudo apt-cache search jdk | grep openjdk-17 #search java17
 sudo apt install openjdk-17-jdk #install java17
 java --version #check java version
 ./gradlew build #build gradle
+java -jar *.jar #run 
 ```
