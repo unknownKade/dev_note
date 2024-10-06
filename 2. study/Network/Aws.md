@@ -6,10 +6,10 @@
 - download project to EC2
 - project test and build
 - run on background with nohup
-```
+```shell
 cd test-aws/build/libs
-nohup java -jar *.jar
-nohup java -jar *.jar &
+nohup java -jar *.jar #runs program on foreground
+nohup java -jar *.jar & #
 netstat -nlpt #check port
 ```
 - log errors
