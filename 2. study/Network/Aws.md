@@ -22,5 +22,9 @@ nohup [run program command] & #rims pm background
 netstat -nlpt #check port
 ```
 - log errors
+```shell
+cat nohup.out
+tail -f nohup.out
+```
 - auto restart server with cron
 
