@@ -19,7 +19,6 @@ java -jar *.jar #run jar
 ```shell
 nohup [run program command] #runs program on foreground
 nohup [run program command] & #rims pm background
-netstat -nlpt #check port
 ```
 - log errors
 ```shell

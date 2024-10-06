@@ -24,3 +24,11 @@ sudo apt-cache search jdk | grep openjdk-11
 sudo apt install openjdk-11-jdk
 
 ```
+
+
+### Network
+
+```shell
+netstat -nlpt #monitor active internet connections
+
+```
