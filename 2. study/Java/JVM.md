@@ -4,4 +4,8 @@
 
 - Perl : interpretor. no declaring. CGI
 - Python : interpretor. OOP. Script. dynamic typing
-- DART: OOP 
+- DART: OOP
+
+- SSL
+- DLL
+-
