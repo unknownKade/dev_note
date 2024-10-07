@@ -6,7 +6,9 @@
 - Sieve of Eratosthenes (prime numbers)
 
 ## Sort
-
+- straight selection sort 단순 선택 정렬
+- straight insertion sort 단순 삽입 정렬
+- bubble
 
 
 ## Hashing
