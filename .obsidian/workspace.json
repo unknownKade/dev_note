@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Contents/0. Vault Guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce691dd929d520a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. projects/Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51911e7fc543a1f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. study/Python.md",
+                "file": "2. study/Network/Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. study/Python.md",
+                "file": "2. study/Network/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. study/Python.md",
+                "file": "2. study/Network/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. study/Python.md"
+                "file": "2. study/Network/Linux.md"
               }
             }
           }
@@ -171,24 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51911e7fc543a1f5",
+  "active": "5916909bd44f10e4",
   "lastOpenFiles": [
-    "1. projects/Algorithms.md",
-    "2. study/Python.md",
     "Brain Dump.md",
-    "1. projects/Data Structures.md",
+    "2. study/Python.md",
     "2. study/Java/JVM.md",
-    "0. Contents/0. Vault Guide.md",
-    "0. Contents/2. Study Contents.md",
-    "2. study/Network/Linux.md",
     "2. study/Network/Aws.md",
     "2. study/Spring/Build.md",
     "2. study/Spring",
+    "2. study/Network/Linux.md",
+    "1. projects/Algorithms.md",
     "2. study/Architecture/Web Architecture.md",
     "2. study/Java/Java Synchronized.md",
     "3. bugs/2024-01-02 build bug.md",
     "9. attachements/Pasted image 20230928171205.png",
     "3. bugs/2024-06-19 git push fail.md",
+    "0. Contents/0. Vault Guide.md",
+    "0. Contents/2. Study Contents.md",
     "2. study/Network",
     "2. study/Architecture",
     "2. study/Java/Java Versions.md",
