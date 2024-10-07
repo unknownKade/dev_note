@@ -22,7 +22,7 @@
 -  String Pattern Matching
 	- 단순 문자열 일치
 	- KMP algorithm
-	- BN algorithm
+	- BM algorithm 
 
 
 ## Hashing
