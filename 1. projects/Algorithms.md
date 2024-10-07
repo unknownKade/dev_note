@@ -12,17 +12,17 @@
 - shell sort
 - merge sort 병합 정렬
 - quick sort 퀵 정렬
+- heap sort
 
 ## Search
 - linear search 선형 검색
 - binary search 이진 검색
-- search array
-- search range
-
-## String Pattern Matching
-- 단순 문자열 일치
-- KMP algorithm
-- BN algorithm
+	- search array
+	- search range
+-  String Pattern Matching
+	- 단순 문자열 일치
+	- KMP algorithm
+	- BN algorithm
 
 
 ## Hashing
