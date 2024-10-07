@@ -8,7 +8,16 @@
 ## Sort
 - straight selection sort 단순 선택 정렬
 - straight insertion sort 단순 삽입 정렬
-- bubble
+- bubble sort 단순 교환 정렬
+- shell sort
+- merge sort 병합 정렬
+- quick sort 퀵 정렬
+
+## Search
+- linear search 선형 검색
+- binary search 이진 검색
+- search array
+- search
 
 
 ## Hashing
