@@ -7,7 +7,9 @@
 
 ## Sort
 
-### Hashing
+
+
+## Hashing
 - key-value pair using hashing function
 - has no duplicates and no order -> makes indorder traversal inefficient
 - useful for finding unique, count, frequency
