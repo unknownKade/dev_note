@@ -17,7 +17,12 @@
 - linear search 선형 검색
 - binary search 이진 검색
 - search array
-- search
+- search range
+
+## String Pattern Matching
+- 단순 문자열 일치
+- KMP 알고리즘
+- BN algorithm
 
 
 ## Hashing
