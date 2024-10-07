@@ -1,8 +1,0 @@
-: 대량 데이터를 효율적으로 정리하는 메커니즘
-- Array
-- Linked Lists
-	- singly linked lists
-	- doubly linked lists
-- Stack
-- Tree
-- Queue
