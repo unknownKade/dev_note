@@ -3,7 +3,9 @@
 - 가우스 소거법(방정식)
 - 사다리꼴의 법칙(정적분)
 - dijkstra's algorithm (shortest route)
-- 
+- Sieve of Eratosthenes (prime numbers)
+
+## Sort
 
 ### Hashing
 - key-value pair using hashing function
