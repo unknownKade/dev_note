@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. study/Network/Linux.md",
+                "file": "0. Contents/0. Vault Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. study/Network/Linux.md",
+                "file": "0. Contents/0. Vault Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. study/Network/Linux.md",
+                "file": "0. Contents/0. Vault Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. study/Network/Linux.md"
+                "file": "0. Contents/0. Vault Guide.md"
               }
             }
           }
@@ -148,18 +148,19 @@
   },
   "active": "5916909bd44f10e4",
   "lastOpenFiles": [
+    "1. projects/Algorithms.md",
+    "0. Contents/0. Vault Guide.md",
+    "0. Contents/2. Study Contents.md",
+    "2. study/Java/JVM.md",
+    "2. study/Network/Linux.md",
     "2. study/Network/Aws.md",
     "2. study/Spring/Build.md",
     "2. study/Spring",
-    "2. study/Network/Linux.md",
-    "1. projects/Algorithms.md",
     "2. study/Architecture/Web Architecture.md",
     "2. study/Java/Java Synchronized.md",
     "3. bugs/2024-01-02 build bug.md",
     "9. attachements/Pasted image 20230928171205.png",
     "3. bugs/2024-06-19 git push fail.md",
-    "0. Contents/0. Vault Guide.md",
-    "0. Contents/2. Study Contents.md",
     "2. study/Network",
     "2. study/Architecture",
     "2. study/Java/Java Versions.md",
