@@ -1,4 +1,8 @@
 ## History
+- 유클리드 호제법(최대공약수)
+- 가우스 소거법(방정식)
+- 사다리꼴의 법칙(정적분)
+- dijkstra's algorithm (shortest route)
 - 
 
 ### Hashing
