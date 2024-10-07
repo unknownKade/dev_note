@@ -21,7 +21,7 @@
 
 ## String Pattern Matching
 - 단순 문자열 일치
-- KMP 알고리즘
+- KMP algorithm
 - BN algorithm
 
 

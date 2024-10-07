@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "51911e7fc543a1f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. projects/Algorithms.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. projects/Algorithms.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. projects/Algorithms.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -159,12 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce691dd929d520a8",
+  "active": "51911e7fc543a1f5",
   "lastOpenFiles": [
+    "1. projects/Algorithms.md",
+    "Untitled.md",
     "2. study/Java/JVM.md",
     "Brain Dump.md",
     "0. Contents/0. Vault Guide.md",
-    "1. projects/Algorithms.md",
     "0. Contents/2. Study Contents.md",
     "2. study/Network/Linux.md",
     "2. study/Network/Aws.md",
