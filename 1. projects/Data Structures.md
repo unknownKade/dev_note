@@ -1,2 +1,3 @@
-Data structures 
-## Array
+: 대량 데이터를 효율적으로 정리하는 메커니즘
+- Array 배열
+- list 리
