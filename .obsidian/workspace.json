@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce691dd929d520a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. study/Java/JVM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. Contents/0. Vault Guide.md",
+                "file": "2. study/Java/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Contents/0. Vault Guide.md",
+                "file": "2. study/Java/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Contents/0. Vault Guide.md"
+                "file": "2. study/Java/JVM.md"
               }
             }
           }
@@ -146,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5916909bd44f10e4",
+  "active": "ce691dd929d520a8",
   "lastOpenFiles": [
-    "1. projects/Algorithms.md",
+    "Brain Dump.md",
     "0. Contents/0. Vault Guide.md",
+    "1. projects/Algorithms.md",
     "0. Contents/2. Study Contents.md",
     "2. study/Java/JVM.md",
     "2. study/Network/Linux.md",
