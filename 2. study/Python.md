@@ -8,6 +8,12 @@ Python specific syntax and features to remember
 ```python
 yield
 ```
+
+### Enumerate
+```python
+for index, value in enumerate(a) :
+	
+```
 ### Operators
 ``` python
 5//3 #1
