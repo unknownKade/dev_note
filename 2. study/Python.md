@@ -1,7 +1,7 @@
 Python specific syntax and features to remember
 ### List Comprehension
-```
-
+```python
+[n * 2 for n in range(1, 10 + 1)]
 ```
 
 ### Generator
@@ -12,7 +12,7 @@ yield
 ### Enumerate
 ```python
 for index, value in enumerate(a) :
-	
+	print(a[i] == value)
 ```
 ### Operators
 ``` python
