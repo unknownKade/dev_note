@@ -1,6 +1,13 @@
 Python specific syntax and features to remember
 ### List Comprehension
+```
 
+```
+
+### Generator
+```python
+yield
+```
 ### Operators
 ``` python
 5//3 #1
