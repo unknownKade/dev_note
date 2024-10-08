@@ -56,3 +56,9 @@ print('{0}:{1}'.format(idx + 1, "Apple"))
 import pprint
 pprint.pprint(locals())
 ```
+
+
+### Immutable Object
+```
+
+```
