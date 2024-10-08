@@ -2,9 +2,9 @@ Python specific syntax and features to remember
 
 
 ### Synatxes I get wrong often
-```
+```python
 string.lower()
-
+len(arr)
 ```
 ### Filters and Searching
 ```python
@@ -15,6 +15,9 @@ list.find(word)
 
 ### Data Structure methods
 ```python
+arr.append() #push
+arr.pop() #actual real pop removes last element
+arr.top() #peeking
 arr[i:j] #index i to j
 arr[i:] # 
 arr[:i]
