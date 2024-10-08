@@ -1,9 +1,15 @@
 Python specific syntax and features to remember
 
-### REge
+
+### Synatxes 
+### Filters and Searching
 ```python
 re.findAll()
+list.find(word)
+
 ```
+
+
 ```
 ### List Comprehension
 ```python
