@@ -1,4 +1,4 @@
-Python specific syntaxes and  to remember
+Python specific syntax and features to remember
 ### List Comprehension
 
 ### Operators
@@ -15,3 +15,7 @@ print('{0}:{1}'.format(idx + 1, "Apple"))
 ```
 
 ### Locals
+```python
+import pprint
+pprint.pprint(locals())
+```
