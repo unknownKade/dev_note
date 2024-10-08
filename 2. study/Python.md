@@ -1,7 +1,7 @@
 Python specific syntax and features to remember
 ### List Comprehension
 ```python
-[n * 2 for n in range(1, 10 + 1)]
+[n * 2 for n in range(1, 10 + 1) if n %2 == 1]
 ```
 
 ### Generator
