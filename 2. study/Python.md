@@ -16,11 +16,11 @@ list.find(word)
 ### Data Structure methods
 ```python
 arr.append() #push
-arr.pop() #actual real pop\\
+arr.pop() #actual real pop
 arr[-1] #peek last element
 arr[i:j] #index i to j
-arr[i:] # 
-arr[:i]
+arr[i:] # from index i including i
+arr[:i] # up 
 arr
 ```
 ### List Comprehension
