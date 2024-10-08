@@ -1,7 +1,11 @@
 Python specific syntax and features to remember
 
 
-### Synatxes 
+### Synatxes I get wrong often
+```
+string.lower()
+
+```
 ### Filters and Searching
 ```python
 re.findAll()
@@ -9,6 +13,8 @@ list.find(word)
 
 ```
 
+### Data Structure methods
+```
 
 ```
 ### List Comprehension
