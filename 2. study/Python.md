@@ -14,8 +14,11 @@ list.find(word)
 ```
 
 ### Data Structure methods
-```
-
+```python
+arr[i:j] #index i to j
+arr[i:] # 
+arr[:i]
+arr
 ```
 ### List Comprehension
 ```python
