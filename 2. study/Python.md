@@ -59,6 +59,7 @@ pprint.pprint(locals())
 
 
 ### Immutable Object
-```
-
+```python
+def foo(a, b=None)
+def foo(a, b: Optional[Sequence] = None)
 ```
