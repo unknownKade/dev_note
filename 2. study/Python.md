@@ -20,7 +20,7 @@ arr.pop() #actual real pop
 arr[-1] #peek last element
 arr[i:j] #index i to j
 arr[i:] # from index i including i
-arr[:i] # up 
+arr[:i] # up to i from back 
 arr
 ```
 ### List Comprehension
