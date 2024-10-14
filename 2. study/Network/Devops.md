@@ -1,3 +1,3 @@
 
 ### Cloud services
-- [AWS]
+- [[AWS]]

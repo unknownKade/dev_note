@@ -1,3 +1,3 @@
 ### Services
--  [EC2]
-- [Elastic BeanStalk]
+-  [[EC2]]
+- [[Elastic BeanStalk]]

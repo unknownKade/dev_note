@@ -1,4 +1,3 @@
-
 ### Deploy Process
 - launch instance
 - push to remote repository
