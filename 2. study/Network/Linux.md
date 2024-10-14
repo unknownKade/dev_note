@@ -19,7 +19,7 @@ ln [target] [link name] #hard link
 	-s #symbolic link
 tail [flag] [file] #see end of file
 	-f #follow changes
- history #shows
+ history #history of past commands
 ```
 
 ```shell
