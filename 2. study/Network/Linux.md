@@ -28,8 +28,10 @@ sudo apt install openjdk-11-jdk
 
 ### Process
 ```shell
-ps -ef
-kill
+ps 
+	-e #all processes for all users
+	-f 
+kill [PID]
 ```
 
 ### Network
