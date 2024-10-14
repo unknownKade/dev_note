@@ -1,5 +1,3 @@
-
-
 ### Cross Compiler?
 
 - Perl : interpretor. no declaring. CGI
