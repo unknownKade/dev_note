@@ -9,8 +9,9 @@ ls [flags] [directory]
 
 pwd #current path
 mkdir #new dir
-	-p ./home/{a,b}/{x,y,z}
+	-p ./home/{a,b}/{x,y,z} #makes a,b folders with x,y,z inside
 touch #new file
+	file{1..10}.txt #makes 10 text files
 rm #delete
 cp #copy
 mv [file] [to] #move
