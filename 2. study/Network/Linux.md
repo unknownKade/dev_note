@@ -30,7 +30,8 @@ sudo apt install openjdk-11-jdk
 ```shell
 ps 
 	-e #all processes for all users
-	-f 
+	-f #full format details
+	-l #long format details
 kill [PID]
 ```
 
