@@ -9,6 +9,7 @@ ls [flags] [directory]
 
 pwd #current path
 mkdir #new dir
+	-p ./home/{a,b}
 touch #new file
 rm #delete
 cp #copy
