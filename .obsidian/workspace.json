@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Study/Network/Devops.md",
+                "file": "2. Study/Network/Aws.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92c47e668b235e29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EC2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Study/Network/Devops.md",
+                "file": "EC2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Study/Network/Devops.md",
+                "file": "EC2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Study/Network/Devops.md"
+                "file": "EC2.md"
               }
             }
           }
@@ -171,9 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b1b4629ca8f1021",
+  "active": "92c47e668b235e29",
   "lastOpenFiles": [
     "2. Study/Network/Aws.md",
+    "EC2.md",
     "2. Study/Network/Devops.md",
     "DevOps",
     "2. Study/Network/Git Flow.md",
