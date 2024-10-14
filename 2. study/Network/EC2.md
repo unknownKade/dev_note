@@ -1,5 +1,3 @@
-### EC2
-
 - launch instance
 - push to remote repository
 - download project to EC2
