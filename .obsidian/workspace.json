@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Study/Languages/Python.md",
+                "file": "2. Study/Network/Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Study/Languages/Python.md",
+                "file": "2. Study/Network/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Study/Languages/Python.md",
+                "file": "2. Study/Network/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Study/Languages/Python.md"
+                "file": "2. Study/Network/Linux.md"
               }
             }
           }
@@ -146,11 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b1b4629ca8f1021",
+  "active": "5916909bd44f10e4",
   "lastOpenFiles": [
+    "2. Study/Network/Aws.md",
+    "2. Study/Languages/Python.md",
     "2. Study/Spring/Build.md",
     "2. Study/Network/Linux.md",
-    "2. Study/Network/Aws.md",
     "2. Study/Languages/Java/JVM.md",
     "2. Study/Languages/Java/Java Versions-kr.md",
     "2. Study/Languages/Java/Java Synchronized-kr.md",
@@ -159,7 +160,6 @@
     "0. Contents/2. Study Contents.md",
     "3. Bugs/2024-01-02 build bug.md",
     "1. Projects/Algorithms.md",
-    "2. Study/Languages/Python.md",
     "2. Study/Languages",
     "3. Bugs/2024-06-19 git push fail.md",
     "Brain Dump.md",
