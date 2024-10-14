@@ -32,7 +32,8 @@ ps
 	-e #all processes for all users
 	-f #full format details
 	-l #long format details
-kill [PID]
+kill -KILL [PID] #
+kill -9 [PID]
 ```
 
 ### Network
