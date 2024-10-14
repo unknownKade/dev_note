@@ -24,4 +24,3 @@ cat nohup.out
 tail -f nohup.out
 ```
 - auto restart server with cron
-
