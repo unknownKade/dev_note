@@ -33,6 +33,10 @@ ps
 	-f #full format details
 	-l #long format details
 kill [flag] [PID]
+	-KILL
+	-9
+	-l
+
 ```
 
 ### Network
