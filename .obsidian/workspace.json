@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Contents/0. Vault Guide.md",
+                "file": "3. Bugs/2024-01-02 build bug.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. Contents/0. Vault Guide.md",
+                "file": "3. Bugs/2024-01-02 build bug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. Contents/0. Vault Guide.md",
+                "file": "3. Bugs/2024-01-02 build bug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. Contents/0. Vault Guide.md"
+                "file": "3. Bugs/2024-01-02 build bug.md"
               }
             }
           }
@@ -146,34 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5916909bd44f10e4",
+  "active": "5b1b4629ca8f1021",
   "lastOpenFiles": [
-    "2. study/Architecture/Web Architecture.md",
-    "2. study/Python.md",
-    "2. study/Languages",
-    "3. bugs/2024-01-02 build bug.md",
-    "3. bugs/2024-06-19 git push fail.md",
+    "2. Study/Java/Java Synchronized.md",
+    "1. Projects/Algorithms.md",
     "0. Contents/0. Vault Guide.md",
+    "2. Study/Architecture/Web Architecture.md",
+    "2. Study/Python.md",
+    "2. Study/Languages",
+    "3. Bugs/2024-01-02 build bug.md",
+    "3. Bugs/2024-06-19 git push fail.md",
     "0. Contents/2. Study Contents.md",
     "Brain Dump.md",
-    "2. study/Network/Linux.md",
-    "2. study/Java/JVM.md",
-    "2. study/Network/Aws.md",
-    "2. study/Spring/Build.md",
-    "2. study/Spring",
-    "1. projects/Algorithms.md",
-    "2. study/Java/Java Synchronized.md",
+    "2. Study/Network/Linux.md",
+    "2. Study/Java/JVM.md",
+    "2. Study/Network/Aws.md",
+    "2. Study/Spring/Build.md",
+    "2. Study/Spring",
     "9. attachements/Pasted image 20230928171205.png",
-    "2. study/Network",
-    "2. study/Architecture",
-    "2. study/Java/Java Versions.md",
+    "2. Study/Network",
+    "2. Study/Architecture",
+    "2. Study/Java/Java Versions.md",
     "0. Contents",
     "9. attachements",
     "2. Study/Untitled 1.md",
-    "3. bugs",
-    "2. study/Java",
+    "3. Bugs",
+    "2. Study/Java",
     "Welcome.md",
-    "2. study",
-    "1. projects"
+    "2. Study",
+    "1. Projects"
   ]
 }
