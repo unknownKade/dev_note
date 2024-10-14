@@ -11,12 +11,8 @@
             "id": "5916909bd44f10e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Bugs/2024-01-02 build bug.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Bugs/2024-01-02 build bug.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Bugs/2024-01-02 build bug.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3. Bugs/2024-01-02 build bug.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,17 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b1b4629ca8f1021",
+  "active": "5916909bd44f10e4",
   "lastOpenFiles": [
+    "0. Contents/0. Vault Guide.md",
+    "0. Contents/2. Study Contents.md",
+    "3. Bugs/2024-01-02 build bug.md",
     "2. Study/Java/Java Synchronized.md",
     "1. Projects/Algorithms.md",
-    "0. Contents/0. Vault Guide.md",
     "2. Study/Architecture/Web Architecture.md",
     "2. Study/Python.md",
     "2. Study/Languages",
-    "3. Bugs/2024-01-02 build bug.md",
     "3. Bugs/2024-06-19 git push fail.md",
-    "0. Contents/2. Study Contents.md",
     "Brain Dump.md",
     "2. Study/Network/Linux.md",
     "2. Study/Java/JVM.md",
