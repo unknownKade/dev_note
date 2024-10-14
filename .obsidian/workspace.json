@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "2. Study/Network/Devops.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "2. Study/Network/Devops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "2. Study/Network/Devops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "2. Study/Network/Devops.md"
               }
             }
           }
@@ -171,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1f52b79fd1829c8",
+  "active": "5b1b4629ca8f1021",
   "lastOpenFiles": [
     "2. Study/Network/Aws.md",
-    "Untitled.md",
+    "2. Study/Network/Devops.md",
     "DevOps",
     "2. Study/Network/Git Flow.md",
     "2. Study/Network/Linux.md",
