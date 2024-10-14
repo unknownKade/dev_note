@@ -2,14 +2,14 @@
 
 ```shell
 clear
-cd
+cd # cd - goes back to first dir
 ls [flags] [directory]
 	-l #include permissions,size,timestamps
 	-a -all #include hidden files
 
 pwd #current path
 mkdir #new dir
-	-p ./home/{a,b}
+	-p ./home/{a,b}/{x,y,z}
 touch #new file
 rm #delete
 cp #copy
