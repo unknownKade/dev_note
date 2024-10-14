@@ -17,7 +17,9 @@ cp #copy
 mv [file] [to] #move
 ln [target] [link name] #hard link
 	-s #symbolic link
-tail [file] #see en
+tail [flag] [file] #see end of file
+	-f #follow changes
+ history #shows
 ```
 
 ```shell
