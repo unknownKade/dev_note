@@ -1,1 +1,1 @@
-: Docker is a
+: Docker is an open source container management service that stores enviornments in containers to be deployed r
