@@ -11,12 +11,14 @@
             "id": "503363399a2ce14e",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.4"
+                "file": "2. study/Languages/Java/Java Versions-kr.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "Java Versions-kr"
             }
           }
         ]
@@ -91,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2. study/Languages/Java/Java Versions-kr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Java Versions-kr"
             }
           },
           {
@@ -109,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2. study/Languages/Java/Java Versions-kr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Java Versions-kr"
             }
           },
           {
@@ -134,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "2. study/Languages/Java/Java Versions-kr.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Java Versions-kr"
             }
           }
         ]
@@ -158,6 +164,8 @@
   },
   "active": "503363399a2ce14e",
   "lastOpenFiles": [
+    "2. study/Languages/Java/Java Synchronized-kr.md",
+    "0. contents/0. Vault Guide.md",
     "Brain Dump.md",
     "9. attachements/Pasted image 20230928171205.png",
     "9. attachements",
@@ -166,7 +174,6 @@
     "3. bugs",
     "2. study/Languages/Java/JVM.md",
     "2. study/Languages/Java/Java Versions-kr.md",
-    "2. study/Languages/Java/Java Synchronized-kr.md",
     "2. study/Spring/Build.md",
     "2. study/Network/Linux.md",
     "2. study/Network/EC2.md",
@@ -185,8 +192,7 @@
     "2. study",
     "1. projects/Algorithms.md",
     "1. projects",
-    "0. Contents/0. Vault Guide.md",
-    "0. Contents",
+    "0. contents",
     "dev_note/Brain Dump.md",
     "dev_note/9. attachements/Pasted image 20230928171205.png",
     "dev_note/3. bugs/2024-06-19 git push fail.md",
