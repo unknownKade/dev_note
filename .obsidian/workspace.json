@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "919b386682aee6e8",
+        "id": "3ac1b4b1de0ad9d2",
         "type": "tabs",
         "children": [
           {
-            "id": "5916909bd44f10e4",
+            "id": "503363399a2ce14e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "2. Study/Network/Docker.md",
-                "mode": "source",
-                "source": false
-              }
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
         ]
@@ -39,7 +39,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +56,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +66,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Study/Network/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +98,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -102,10 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Study/Network/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -116,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -124,9 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2. Study/Network/Docker.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -146,39 +156,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5916909bd44f10e4",
+  "active": "503363399a2ce14e",
   "lastOpenFiles": [
-    "2. Study/Network/Linux.md",
-    "2. Study/Network/EC2.md",
-    "2. Study/Network/AWS.md",
-    "2. Study/Network/Elastic Beanstalk.md",
-    "2. Study/Network/Docker.md",
-    "2. Study/Network/Devops.md",
-    "DevOps",
-    "2. Study/Network/Git Flow.md",
-    "2. Study/Languages/Python.md",
-    "2. Study/Spring/Build.md",
-    "2. Study/Languages/Java/JVM.md",
-    "2. Study/Languages/Java/Java Versions-kr.md",
-    "2. Study/Languages/Java/Java Synchronized-kr.md",
-    "2. Study/Architecture/Web Architecture.md",
-    "0. Contents/0. Vault Guide.md",
-    "0. Contents/2. Study Contents.md",
-    "3. Bugs/2024-01-02 build bug.md",
-    "1. Projects/Algorithms.md",
-    "2. Study/Languages",
-    "3. Bugs/2024-06-19 git push fail.md",
     "Brain Dump.md",
-    "2. Study/Spring",
     "9. attachements/Pasted image 20230928171205.png",
-    "2. Study/Network",
-    "2. Study/Architecture",
-    "0. Contents",
     "9. attachements",
-    "2. Study/Untitled 1.md",
-    "3. Bugs",
-    "2. Study/Languages/Java",
-    "Welcome.md",
-    "2. Study"
+    "3. bugs/2024-06-19 git push fail.md",
+    "3. bugs/2024-01-02 build bug.md",
+    "3. bugs",
+    "2. study/Languages/Java/JVM.md",
+    "2. study/Languages/Java/Java Versions-kr.md",
+    "2. study/Languages/Java/Java Synchronized-kr.md",
+    "2. study/Spring/Build.md",
+    "2. study/Network/Linux.md",
+    "2. study/Network/EC2.md",
+    "2. study/Network/Git Flow.md",
+    "2. study/Network/Elastic Beanstalk.md",
+    "2. study/Network/Docker.md",
+    "2. study/Network/Devops.md",
+    "2. study/Network/AWS.md",
+    "2. study/Languages/Python.md",
+    "2. study/Languages/Java",
+    "2. study/Architecture/Web Architecture.md",
+    "2. study/Spring",
+    "2. study/Network",
+    "2. study/Languages",
+    "2. study/Architecture",
+    "2. study",
+    "1. projects/Algorithms.md",
+    "1. projects",
+    "0. Contents/0. Vault Guide.md",
+    "0. Contents",
+    "dev_note/Brain Dump.md",
+    "dev_note/9. attachements/Pasted image 20230928171205.png",
+    "dev_note/3. bugs/2024-06-19 git push fail.md",
+    "dev_note/3. bugs/2024-01-02 build bug.md",
+    "dev_note/2. study/Languages/Java/Java Versions-kr.md",
+    "dev_note/2. study/Languages/Java/JVM.md",
+    "dev_note/2. study/Languages/Java/Java Synchronized-kr.md",
+    "dev_note/2. study/Spring/Build.md",
+    "dev_note/2. study/Network/Linux.md"
   ]
 }
