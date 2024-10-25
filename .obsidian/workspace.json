@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "503363399a2ce14e",
+            "id": "04eace9ba9d4db2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. study/Spring/Untitled.md",
+                "file": "2. study/Network/AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "AWS"
             }
           }
         ]
@@ -162,11 +162,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "503363399a2ce14e",
+  "active": "5b1b4629ca8f1021",
   "lastOpenFiles": [
-    "2. study/Languages/Java/Java Versions-kr.md",
-    "2. study/Spring/Untitled.md",
+    "d.txt",
+    "새 텍스트 문서.txt",
+    "2. study/Network/Devops.md",
+    "2. study/Network/Docker.md",
+    "2. study/Network/EC2.md",
+    "2. study/Network/Elastic Beanstalk.md",
+    "2. study/Network/Git Flow.md",
+    "2. study/Network/Linux CLI.md",
+    "2. study/Languages/Python.md",
+    "2. study/Languages/Java/JVM.md",
     "2. study/Languages/Java/Java Synchronized-kr.md",
+    "Open Ends.md",
+    "2. study/Database/Transaction.md",
+    "2. study/Spring/SpringData/Spring Data Web Support.md",
+    "2. study/Spring/SpringData/Spring Data JpaRepository.md",
+    "2. study/Spring/SpringData/Spring Data JPA.md",
+    "2. study/Spring/SpringData/QueryDsl.md",
+    "2. study/Spring/SpringData/Spring Data.md",
+    "2. study/Database",
+    "2. study/Spring/SpringData",
+    "2. study/Languages/Java/Java Versions-kr.md",
     "0. contents/0. Vault Guide.md",
     "Brain Dump.md",
     "9. attachements/Pasted image 20230928171205.png",
@@ -174,33 +192,15 @@
     "3. bugs/2024-06-19 git push fail.md",
     "3. bugs/2024-01-02 build bug.md",
     "3. bugs",
-    "2. study/Languages/Java/JVM.md",
     "2. study/Spring/Build.md",
-    "2. study/Network/Linux.md",
-    "2. study/Network/EC2.md",
-    "2. study/Network/Git Flow.md",
-    "2. study/Network/Elastic Beanstalk.md",
-    "2. study/Network/Docker.md",
-    "2. study/Network/Devops.md",
     "2. study/Network/AWS.md",
-    "2. study/Languages/Python.md",
     "2. study/Languages/Java",
     "2. study/Architecture/Web Architecture.md",
     "2. study/Spring",
     "2. study/Network",
     "2. study/Languages",
     "2. study/Architecture",
-    "2. study",
     "1. projects/Algorithms.md",
-    "1. projects",
-    "0. contents",
-    "dev_note/Brain Dump.md",
-    "dev_note/9. attachements/Pasted image 20230928171205.png",
-    "dev_note/3. bugs/2024-06-19 git push fail.md",
-    "dev_note/3. bugs/2024-01-02 build bug.md",
-    "dev_note/2. study/Languages/Java/Java Versions-kr.md",
-    "dev_note/2. study/Languages/Java/JVM.md",
-    "dev_note/2. study/Languages/Java/Java Synchronized-kr.md",
-    "dev_note/2. study/Spring/Build.md"
+    "dev_note/9. attachements/Pasted image 20230928171205.png"
   ]
 }

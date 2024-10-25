@@ -1,0 +1,12 @@
+- provides model support in MVC architectures.
+- @EnableSpringDataWebSupport
+- make "DomainClassConverter" bean
+- OSIV(Open Session In View = OEIV)
+	- Hibernate's OSIV used to extend persistence context to presentation layer
+		- this made changes in the model be persisted automatically
+		- to fix this they used to
+			- make entity read-only
+			- wrap entity
+			- return only as DTO
+	- In Spring's OEIV has been changed to only persist to businesslayer
+		- persistence context range can be handled using @Transactional
