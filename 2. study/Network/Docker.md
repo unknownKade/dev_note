@@ -6,6 +6,9 @@
 	- handles execution and changes during runtime
 	- containers cannot communciate/share with each other
 	- communicates to docker engine via ports
+	- communicate to other container via port ``-p $host_port : $container_port
+- Image Layer
+	- shared layer of images underneath 
 - Docker Engine
 	- Runs on top of the computer and communicates to containers
 
