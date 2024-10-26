@@ -9,7 +9,7 @@
 	- communicate to other container via port ``-p $host_port : $container_port
 - Image Layer
 	- R/O shared layer of images underneath container layer
-	- images are shared between containeres 
+	- images are shared between containeres = enhances performance
 - Docker Engine
 	- Runs on top of the computer and communicates to containers
 
