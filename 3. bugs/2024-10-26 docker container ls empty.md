@@ -4,4 +4,5 @@ docker container ls is empty when there is a container on docker desktop
 docker desktop is a different context from the default context in CLI
 `` docker context ls
 ### Solution
-change ``docker context use docker-desktop
+- change context ``docker context use desktop-linux
+- create context ``docker context create desktop-linux --description "DOcker Desktop"
