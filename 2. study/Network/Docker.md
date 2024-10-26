@@ -7,7 +7,7 @@
 	- containers cannot communciate/share with each other
 	- communicates to docker engine via ports
 - Docker Engine
-	- Runs on top of P
+	- Runs on top of the computer and communicates to containers
 
 ### Command
 : docker {target} {command} {option} {variable}
