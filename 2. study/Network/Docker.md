@@ -1,8 +1,9 @@
 : Docker is an open source container management service that stores enviornments in containers to be run on platforms without the hassle of tweaking for each different environment.
 
 ### Architecture
-- Contianer Layer
-- 
+- Container Layer
+	- layer of containers that sit on top of image layers.
+	- handles running 
 
 ### Command
 : docker {target} {command} {option} {variable}
