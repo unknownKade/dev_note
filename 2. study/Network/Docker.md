@@ -2,8 +2,9 @@
 
 ### Architecture
 - Container Layer
-	- layer of containers that sit on top of image layers.
-	- handles running 
+	- read/write layer of containers that sit on top of image layers.
+	- handles execution and changes during runtime
+	- containers cannot communciate/sh
 
 ### Command
 : docker {target} {command} {option} {variable}
