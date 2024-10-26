@@ -18,5 +18,7 @@
 - main targets : container, image, volume, network
 - main commands : start, stop, create, run, rm, exec, ls, cp, commit, pul, rm, ls, cp, commit, pul, build
 
-
+- make a container named test1
+- 
 `` docker run --name test1 -d httpd
+``docker run --name test1 -d -p 8080:80 httpd
