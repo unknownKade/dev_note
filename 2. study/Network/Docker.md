@@ -4,7 +4,10 @@
 - Container Layer
 	- read/write layer of containers that sit on top of image layers.
 	- handles execution and changes during runtime
-	- containers cannot communciate/sh
+	- containers cannot communciate/share with each other
+	- communicates to docker engine via ports
+- Docker Engine
+	- Runs on top of P
 
 ### Command
 : docker {target} {command} {option} {variable}
