@@ -22,7 +22,13 @@
 	- create
 	- run
 	- rm
-	- exec, ls, cp, commit, pul, rm, ls, cp, commit, pul, build
+	- exec
+	- ls 
+	- cp
+	- commit
+	- pull
+	- rm, ls, cp, commit, pul
+	- build
 - make a container named test1 that runs in background `` docker run --name test1 -d httpd
 - host port 8080 and set network and container port 80 ``docker run --name test1 -d -p 8080:80 httpd
-- docker ps -a
+- show all containers regardless of state``docker ps -a
