@@ -2,13 +2,14 @@
 
 ### Architecture
 - Container Layer
-	- read/write layer of containers that sit on top of image layers.
+	- R/W layer of containers that sit on top of image layers.
 	- handles execution and changes during runtime
 	- containers cannot communciate/share with each other
 	- communicates to docker engine via ports
 	- communicate to other container via port ``-p $host_port : $container_port
 - Image Layer
-	- shared layer of images underneath 
+	- R/O shared layer of images underneath container layer
+	- images are shared between containeres 
 - Docker Engine
 	- Runs on top of the computer and communicates to containers
 
