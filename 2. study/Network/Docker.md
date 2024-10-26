@@ -16,8 +16,13 @@
 ### Command
 : docker {target} {command} {option} {variable}
 - main targets : container, image, volume, network
-- main commands : start, stop, create, run, rm, exec, ls, cp, commit, pul, rm, ls, cp, commit, pul, build
-
+- main commands 
+	- start
+	- stop
+	- create
+	- run
+	- rm
+	- exec, ls, cp, commit, pul, rm, ls, cp, commit, pul, build
 - make a container named test1 that runs in background `` docker run --name test1 -d httpd
-- host port 8080 and set network and container port 80 
-``docker run --name test1 -d -p 8080:80 httpd
+- host port 8080 and set network and container port 80 ``docker run --name test1 -d -p 8080:80 httpd
+- docker ps -a
