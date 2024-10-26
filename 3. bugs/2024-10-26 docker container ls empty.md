@@ -5,4 +5,4 @@ docker desktop is a different context from the default context in CLI
 `` docker context ls
 ### Solution
 - change context ``docker context use desktop-linux
-- create context ``docker context create desktop-linux --description "Docker Desktop" --docker "host=unix://home/
+- create context ``docker context create desktop-linux --description "Docker Desktop" --docker "host=unix://home/USER_NAME/.docker/desktop/docker.sock"
