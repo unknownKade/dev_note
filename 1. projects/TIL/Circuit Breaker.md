@@ -59,7 +59,7 @@ private final CircuitBreakerRegistry circuitBreakerRegistry;
 public void registerEventListener() {  
     circuitBreakerRegistry.circuitBreaker("productService").getEventPublisher()  
             .onStateTransition(event -> log.info("CircuitBreaker State Transition: {}", event))
-            .onFailureRateExceeded(event -> log.info("CircuitBreaker Failure Rate Exceeded: {}", event))
+            .onFailureRateExceeded(event -> log.info("CircuitBreaker Failure Rate Exceeded: {}", event)) 
             .onCallNotPermitted(event -> log.info("#######CircuitBreaker Call Not Permitted: {}", event)) // 호출 차단 이벤트 리스너  
             .onError(event -> log.info("#######CircuitBreaker Error: {}", event)); // 오류 발생 이벤트 리스너  
 }  
