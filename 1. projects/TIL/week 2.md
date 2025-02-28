@@ -1,6 +1,7 @@
 # Circuit Breaker
 - checks and stops/restarts calls between services to maintain stability of the overall system
 - when calls fail repeatedly the circuit breaker detects this as a system failure and isolates it to not affect other parts of the system
+- circuit breaker routing prevents cascading failures where failure from 
 - managed through three states
 	- Close : circuit breaker is closed and all calls are passed. when a call fails the fail counter goes up
 	- Open : when the fail count exceeds the limit, all calls attempts are stopped and returns an error. will be half-closed after alloted wait time passes
