@@ -2,7 +2,7 @@
 - checks and stops/restarts calls between services to maintain stability of the overall system
 - when calls fail repeatedly the circuit breaker detects this as a system failure and isolates it to not affect other parts of the system
 - circuit breaker routing prevents cascading failures where a failure from one api continues to trigger failures
-- 
+- different from [Retry Pattern]
 - managed through three states
 	- Close : circuit breaker is closed and all calls are passed. when a call fails the fail counter goes up
 	- Open : when the fail count exceeds the limit, all calls attempts are stopped and returns an error. will be half-closed after alloted wait time passes
@@ -11,6 +11,8 @@
 	- Monitoring : monitoring tool for the circuit breaker
 
 # Resilence4j
+- Hystrix like library made for functional programming
+- flexibible 
 
 ``` yaml
 implementation 'io.github.resilience4j:resilience4j-spring-boot3:2.2.0' implementation 'org.springframework.boot:spring-boot-starter-aop'
