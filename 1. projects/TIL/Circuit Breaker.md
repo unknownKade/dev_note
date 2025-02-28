@@ -16,6 +16,7 @@
 	- implemented with a flexible state machine
 	- uses count/time based sliding window
 
+#### settings
 ``` yaml
 implementation 'io.github.resilience4j:resilience4j-spring-boot3:2.2.0' implementation 'org.springframework.boot:spring-boot-starter-aop'
 
@@ -36,7 +37,7 @@ resilience4j:
         slowCallDurationThreshold: 60000  # milisecond of timeout threshold
         failureRateThreshold: 50  # failure rate limit
         permittedNumberOfCallsInHalfOpenState: 3
-        waitDurationInOpenState: 20s  # Open ???? Half-open ??? ???? ?? ???? ??? 20?? ??  
+        waitDurationInOpenState: 20s  # wait time for open -> half-open
   
 management:  
   endpoints:  
@@ -47,4 +48,41 @@ management:
     metrics:  
       export:  
         enabled: true
+```
+
+#### implementation
+``` java
+private final Logger log = LoggerFactory.getLogger(getClass());  
+private final CircuitBreakerRegistry circuitBreakerRegistry;  
+  
+@PostConstruct  
+public void registerEventListener() {  
+    circuitBreakerRegistry.circuitBreaker("productService").getEventPublisher()  
+            .onStateTransition(event -> log.info("CircuitBreaker State Transition: {}", event))
+            .onFailureRateExceeded(event -> log.info("CircuitBreaker Failure Rate Exceeded: {}", event))
+            .onCallNotPermitted(event -> log.info("#######CircuitBreaker Call Not Permitted: {}", event)) // 호출 차단 이벤트 리스너  
+            .onError(event -> log.info("#######CircuitBreaker Error: {}", event)); // 오류 발생 이벤트 리스너  
+}  
+  
+  
+@CircuitBreaker(name = "productService", fallbackMethod = "fallbackGetProductDetails")  
+public Product getProduct(String id){  
+    if ("111".equals(id)){  
+        log.warn("### Received empty body");  
+        throw new RuntimeException("Empty response body");  
+    }  
+  
+    return  new Product(  
+            id,  
+            "Sample Product : " + id  
+    );  
+}  
+  
+public Product fallbackGetProductDetails(String id, Throwable t){  
+    log.error("####Fallback triggered for productId: {} due to: {}", id, t.getMessage());  
+    return new Product(  
+            "0",  
+            "Fallback :" + id  
+    );  
+}
 ```
