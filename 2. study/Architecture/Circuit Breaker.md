@@ -58,11 +58,14 @@ private final CircuitBreakerRegistry circuitBreakerRegistry;
 @PostConstruct  
 public void registerEventListener() {  
     circuitBreakerRegistry.circuitBreaker("productService").getEventPublisher()  
-            .onStateTransition(event -> log.info("CircuitBreaker State Transition: {}", event))
-            .onFailureRateExceeded(event -> log.info("CircuitBreaker Failure Rate Exceeded: {}", event)) 
-            .onCallNotPermitted(event -> log.info("#######CircuitBreaker Call Not Permitted: {}", event)) // 호출 차단 이벤트 리스너  
-            .onError(event -> log.info("#######CircuitBreaker Error: {}", event)); // 오류 발생 이벤트 리스너  
-}  
+            .onStateTransition(event -> 
+	            log.info("CircuitBreaker State Transition: {}", event))
+            .onFailureRateExceeded(event -> 
+	            log.info("CircuitBreaker Failure Rate Exceeded: {}", event))
+            .onCallNotPermitted(event -> 
+	            log.info("CircuitBreaker Call Not Permitted: {}", event))
+            .onError(event -> 
+	            log.info("CircuitBreaker Error: {}", event)); }  
   
   
 @CircuitBreaker(name = "productService", fallbackMethod = "fallbackGetProductDetails")  
