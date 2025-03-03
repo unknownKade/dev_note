@@ -8,14 +8,14 @@
 	- 
 - Dispatcher Servlet/ HandlerMapping/ Handler Adapter/ View Resolver
 - Spring filter/ Interceptor
-
+- 스프링 의존성 생성자 주입/ 필드 주입/ 수정자 주입
+	- 생성자를 통해 주입하는 경우 해당 빈의 생성자에 의존성을 변수로 줘서 final 멤버로 주입한다.
+	- 필드 주입은 @Autowired 어노테이션을 사용해서 주입하는 것인데
 - MVC pattern
 	- 
 - Layered architecture
 
 
-- 스프링 의존성 생성자 주입/ 필드 주입/ 수정자 주입
-	- 생성자를 통해 주입하는 경우 해당 빈의 생성자에 의존성을 변수로 줘서 final 멤버로 주입한다.
-	- 필드 주입은 @Autowired 어노테이션을 사용해서 주입하는 것인데 
+
 - Index
-- JVM 구조
+	- 검색 성능을 향상시키기 위해 속성에 
