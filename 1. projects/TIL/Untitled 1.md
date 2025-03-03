@@ -13,7 +13,7 @@ yml - h2 in memory 활용
 도메인 기준을 명확할 것
 
 entity에 dto 메소드 넣지 말것(계층 간 의존성 위반)
-dto에 toEntty() , from(Entity entity) 추천
+dto에 toEntity() , from(Entity entity) 추천
 따로 Mapper 클래스 고려
 
 객체 생성 시 빌더패턴 활용
