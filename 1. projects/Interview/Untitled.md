@@ -24,8 +24,8 @@
 	- PK는 자동 인덱싱되고 클러스터드 인덱스라고한다
 	- 
 - paritioning
-	- vertical : 테이블의 가로(컬럼)을 기준으로 테이블을 나누는 것으로 정규화 같은 걸 말하고 
-	- horizontal : 테이블 
+	- vertical : 테이블의 가로(컬럼)을 기준으로 테이블을 나누는 것으로 정규화 같은 걸 말함 
+	- horizontal : 테이블 row를 기준으로 테이블을 나누는 것으로 테이블 자체가 커지는 것을 막는것. 테이블이 커지면 인덱스 크기가 커져 느려진다. hash function 기반으로 parition key를 정하여 파티셔닝하는 경우가 많다
 - sharding
-	- 
+	-
 [link](https://github.com/ksundong/backend-interview-question)
