@@ -3,10 +3,10 @@
 	- 자바 빈은 
 - SOLID
 	- Single Responsibility - 단일 책임 원칙은 각 객체는 한 가지 책임만을 가져야하는 원칙
-	- Open Close - 변화에는 닫혀있고 확장에는 열려 있어야하는 원칙
+	- Open Close - 변화에는 닫혀있고 확장에는 열려 있어야한다
 	- Liskov Substitution Principle - 자식 객체를 부모 객체로 교환해도 정상적으로 작동해야한다
-	- Interface Seperation - 인터페이스를 통해 통신해야한다
-	- Dependency Inversion - 
+	- Interface Seperation - 쓰지 않는 외부 메소드에 의존해선 안된다. 필요한 단위로 인터페이스로 쪼개야한다
+	- Dependency Inversion - 자기보다 구체적인 것에 의존해선 안된다. 구현 클래스에 의존하지 않고 인터페이스를 통해야한다
 ## Spring
 
 - IoC/ DI/ IoC Container
