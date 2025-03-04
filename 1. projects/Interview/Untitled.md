@@ -23,5 +23,7 @@
 	- 데이터베이스 지정한컬럼들의 데이터를 정렬해서 물리적 주소와 함께 따로 보관해서  검색 속도를 향상 시키는 자료구조로 주로 B+트리가 사용된다.
 	- PK는 자동 인덱싱되고 클러스터드 인덱스라고한다
 	- 
-
+- paritioning
+	- vertical : 테이블으
+	- horizontal
 [link](https://github.com/ksundong/backend-interview-question)
