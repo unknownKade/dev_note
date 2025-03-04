@@ -1,6 +1,12 @@
 ## Java
 - Java Bean/ Spring Bean
 	- 자바 빈은 
+- SOLID
+	- Single Responsibility - 단일 책임 원칙은 각 객체는 한 가지 책임만을 가져야하는 원칙
+	- Open Close - 변화에는 닫혀있고 확장에는 열려 있어야하는 원칙
+	- Liskov Substitution Principle - 자식 객체를 부모 객체로 교환해도 정상적으로 작동해야한다
+	- Interface Seperation - 인터페이스를 통해 통신해야한다
+	- Dependency Inversion - 
 ## Spring
 
 - IoC/ DI/ IoC Container
