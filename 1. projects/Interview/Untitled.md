@@ -17,6 +17,8 @@
 	- 그 외에 스프링 설정을 할 수 있는 @Configuration어노테이션을 붙인 클래스에서는 @Bean 어노테이션으로 메소드만으로도 빈을 등록 할 수 있다.
 	- 스프링을 올릴때 componentScan을 통해 어노테이션이 붙은 설정과 빈을 찾아 빈을 만들어 스프링 컨테이너에 등록한다.
 	- @postContruct @PreDestroy를 통해 빈의 생명주기를 임의로 변경 할 수 있다
+	- 객체는 생성 -> 의존성 설정 ->초기화
+	- 빈이 존재할 수 있는 범위(scope)를 singletone, porotoype, request, session, applicaiton으로 설정할 수 있다.
 - Dispatcher Servlet/ HandlerMapping/ Handler Adapter/ View Resolver
 	- 
 - Spring filter/ Interceptor
@@ -32,7 +34,7 @@
 ## JPA
 - 
 - 영속성 컨텍스트/flush/dirty checking
-	- 엔티티를 영구적으로 저장하고 있는 환경
+	- 엔티티를 트랜잭션 단위로 저장하고있는 단위 
 	-  flush는 영속성 컨텍스트 상의 엔티티 데이터와 DB의 데이터를  맞추는데 사용. 트랜잭션을 커밋하는 경우나 JPQL 쿼리가 실행되는 경우 호출된다 
 	- empty로 영속성 컨텍스트 비울 수 있다
 	- dirty checking은 트랜잭션이 종료되는 시점에서 변화를 감지해서 DB에 반영하는 기능
