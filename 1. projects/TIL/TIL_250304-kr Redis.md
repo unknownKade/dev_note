@@ -8,4 +8,6 @@
 		- Redis : key-value
 		- MongoDB: Document
 		- Cassandra : Column Family
-	- 
+
+## Redis
+ - 
