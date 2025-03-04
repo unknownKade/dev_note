@@ -7,6 +7,7 @@
 	- Liskov Substitution Principle - 자식 객체를 부모 객체로 교환해도 정상적으로 작동해야한다
 	- Interface Seperation - 쓰지 않는 외부 메소드에 의존해선 안된다. 필요한 단위로 인터페이스로 쪼개야한다
 	- Dependency Inversion - 자기보다 구체적인 것에 의존해선 안된다. 구현 클래스에 의존하지 않고 인터페이스를 통해야한다
+- 
 ## Spring
 
 - IoC/ DI/ IoC Container
@@ -14,6 +15,9 @@
 - Spring Bean 등록, Scope, lifecycle
 	- 스프링 빈은 기본적으로 Component 어노테이션으로 등록할 수 있고 어떤 컴포넌트인지에따라 @Controller, @Service, @Repository 같이 구체적인 용도의 빈은 따로 어노테이션이 마련되어 있기도하다.
 	- 그 외에 스프링 설정을 할 수 있는 @Configuration어노테이션을 붙인 클래스에서는 @Bean 어노테이션으로 메소드만으로도 빈을 등록 할 수 있다.
+	- 스프링을 올릴때 componentScan을 통해 어노테이션이 붙은 설정과 빈을 찾아 빈을 만들어 스프링 컨테이너에 등록한다.
+	- 
+	- @postContruct @PreDestroy를 통해 빈의 생명주기를 임의로 변경 할 수 있다
 - Dispatcher Servlet/ HandlerMapping/ Handler Adapter/ View Resolver
 	- 
 - Spring filter/ Interceptor
