@@ -35,7 +35,7 @@
 	- 엔티티를 영구적으로 저장하고 있는 환경
 	-  flush는 영속성 컨텍스트 상의 엔티티 데이터와 DB의 데이터를  맞추는데 사용. 트랜잭션을 커밋하는 경우나 JPQL 쿼리가 실행되는 경우 호출된다 
 	- empty로 영속성 컨텍스트 비울 수 있다
-	- dirty checking은 트랜잭션이 종료되는 시점에서 변화를 감지해서 DB에 반영하는 것 
+	- dirty checking은 트랜잭션이 종료되는 시점에서 변화를 감지해서 DB에 반영하는 기능
 - 
 ## DB
 - Index [link](https://www.youtube.com/watch?v=iNvYsGKelYs)
