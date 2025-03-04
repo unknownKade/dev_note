@@ -7,7 +7,7 @@
 	- Liskov Substitution Principle - 자식 객체를 부모 객체로 교환해도 정상적으로 작동해야한다
 	- Interface Seperation - 쓰지 않는 외부 메소드에 의존해선 안된다. 필요한 단위로 인터페이스로 쪼개야한다
 	- Dependency Inversion - 자기보다 구체적인 것에 의존해선 안된다. 구현 클래스에 의존하지 않고 인터페이스를 통해야한다
-- 
+- Serialize
 ## Spring
 
 - IoC/ DI/ IoC Container
@@ -32,7 +32,8 @@
 - Layered architecture
 
 ## JPA
-- 
+- 트랜잭션 격리
+- 지연로딩 프록시
 - 영속성 컨텍스트/flush/dirty checking
 	- 엔티티를 트랜잭션 단위로 저장하고있는 단위 
 	-  flush는 영속성 컨텍스트 상의 엔티티 데이터와 DB의 데이터를  맞추는데 사용. 트랜잭션을 커밋하는 경우나 JPQL 쿼리가 실행되는 경우 호출된다 
