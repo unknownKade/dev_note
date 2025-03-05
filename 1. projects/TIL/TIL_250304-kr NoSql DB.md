@@ -9,4 +9,3 @@
 
 - LSM(log-structured storage engine) Tree
 	- append-only(끝에 데이터를 추가로 붙이는 것만 가능한) log file 기반으로 작동
-	- Log Structured Storage Engine : 
