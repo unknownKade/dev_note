@@ -32,4 +32,13 @@ services:
 ``` redis
 set user:email asdf@asdf.com
 get user:email
+
+SET user:count 1
+GET user:count
+INCR user:count -- increase
+DECR user:count -- decrease
+MSET user:name me 
+
+
+
 ```
