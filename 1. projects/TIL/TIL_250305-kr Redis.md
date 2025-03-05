@@ -32,17 +32,17 @@ services:
 ``` bash
 SET user:count 1  
 GET user:count  
---increase  
+#increase/decrease
 INCR user:count  
---decrease  
 DECR user:count  
---set multiple  
+#set multiple  
 MSET user:name me user:email asdf@asdf.com  
 MGET user:name user:email
--- list : implemented as linked list. push pop like stack, queue
+#list : implemented as linked list. push pop like stack, queue
 LPUSH user:list alex
 RPUSH user:list max
 LPOP user:list
 RPOP user:list
-
+#error when type is wrong but returns null for null type
+GET user:null
 ```
