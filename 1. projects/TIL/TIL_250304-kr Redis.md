@@ -14,6 +14,7 @@
 - on Docker
 	- redis/redis-stack
 	- redis/redis-stack-server
+	- redis insight : 
 
 ``` yaml
 services:  
