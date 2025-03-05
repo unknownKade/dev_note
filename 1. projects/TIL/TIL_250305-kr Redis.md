@@ -39,8 +39,10 @@ DECR user:count
 --set multiple  
 MSET user:name me user:email asdf@asdf.com  
 MGET user:name user:email
--- linked list
--- stack, queue
+-- list : implemented as linked list. push pop like stack, queue
 LPUSH user:list alex
-LPOP 
+RPUSH user:list max
+LPOP user:list
+RPOP user:list
+
 ```
