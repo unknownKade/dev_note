@@ -44,7 +44,9 @@ RPUSH user:list max
 LPOP user:list
 RPOP user:list
 LLEN user:list #length of list
-LRANGE user:list 0 1000 #
+LRANGE user:list 0 1000 #range bigger than list size doesn't return error
+LRANGE user:list 0 -2
+LRANGE user:list 2 0 #null list
 #error when type is wrong but returns null for null type
 GET user:null
 ```
