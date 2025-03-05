@@ -13,3 +13,5 @@
 
 #### 참고
 [LSM Tree](https://www.youtube.com/watch?v=i_vmkaR1x-I)
+
+[LSM Tree](https://www.youtube.com/watch?v=I6jB0nM9SKU)
