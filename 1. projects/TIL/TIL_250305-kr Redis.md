@@ -43,6 +43,8 @@ LPUSH user:list alex
 RPUSH user:list max
 LPOP user:list
 RPOP user:list
+LLEN user:list #length of list
+LRANGE user:list 0 1000 #
 #error when type is wrong but returns null for null type
 GET user:null
 ```
