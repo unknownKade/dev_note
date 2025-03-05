@@ -10,12 +10,10 @@
 		- Cassandra : Column Family
 
 ## Redis
-
-- on Docker
-	- redis/redis-stack
-	- redis/redis-stack-server
-	- redis insight : 
-
+- redis/redis-stack
+- redis/redis-stack-server
+- redis insight 
+- docker-compose
 ``` yaml
 services:  
   redis-stack:  
@@ -28,4 +26,10 @@ services:
       - 6379:6379  
       - 8001:8001
  
+```
+
+- redis cli
+``` redis
+set some-key:1234 value1
+get some-key:1234
 ```
