@@ -30,6 +30,6 @@ services:
 
 - redis cli
 ``` redis
-set some-key:1234 value1
-get some-key:1234
+set user:email asdf@asdf.com
+get user:email
 ```
