@@ -15,7 +15,16 @@
 	- redis/redis-stack
 	- redis/redis-stack-server
 
-``` bash
-
+``` yaml
+services:  
+  redis-stack:  
+    image: redis/redis-stack  
+    container_name: sparta-redis  
+    restart: always  
+    #set redis default user deafult's password as systempass
+    command: ["redis-server","--requirepass", "systempass"]
+    ports:  
+      - 6379:6379  
+      - 8001:8001
  
 ```
