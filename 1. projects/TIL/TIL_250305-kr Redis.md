@@ -29,16 +29,18 @@ services:
 ```
 
 - redis cli
-``` redis
-set user:email asdf@asdf.com
-get user:email
-
-SET user:count 1
-GET user:count
-INCR user:count -- increase
-DECR user:count -- decrease
-MSET user:name me 
-
-
-
+``` bash
+SET user:count 1  
+GET user:count  
+--increase  
+INCR user:count  
+--decrease  
+DECR user:count  
+--set multiple  
+MSET user:name me user:email asdf@asdf.com  
+MGET user:name user:email
+-- linked list
+-- stack, queue
+LPUSH user:list alex
+LPOP 
 ```
