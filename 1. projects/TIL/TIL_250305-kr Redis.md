@@ -38,4 +38,7 @@ LRANGE user:list 0 -2
 LRANGE user:list 2 0 #null list
 #error when type is wrong but returns null for null type
 GET user:null
+
+#flush entire db
+flushdb
 ```
