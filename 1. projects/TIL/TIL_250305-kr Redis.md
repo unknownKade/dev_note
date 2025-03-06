@@ -1,8 +1,8 @@
-## Redis
+### Implementations
 - redis/redis-stack
 - redis/redis-stack-server
 - redis insight 
-- docker-compose
+### docker-compose
 ``` yaml
 services:  
   redis-stack:  
