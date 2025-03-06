@@ -7,11 +7,13 @@
 	- update가 많을수록 불필요한 데이터가 많아져서 파일을 최대용량만큼 잘라 immutable로 저장하는 Segement File과 Segement File을 정리해서 실제로 데이터로 췽합하는 Compaction로 보완. immutable segment file로 저장하고 정리하는 프로세스를 통해 유저가 수정하지 못하게 하므로써 성능이 향상된다 
 	- Bitcask key/value store에서 사용
 - B Tree
+	- 
 - B+ Tree
 - LSM Tree
 	- Sorted String Table 
+	- Incoming writing is stored in inmemory storage **memtable** (appended to log file to prevent data loss)
 
 #### 참고
 [LSM Tree](https://www.youtube.com/watch?v=i_vmkaR1x-I)
-
+[B-Tree](https://www.youtube.com/watch?v=K1a2Bk8NrYQ)
 [LSM Tree](https://www.youtube.com/watch?v=I6jB0nM9SKU)
