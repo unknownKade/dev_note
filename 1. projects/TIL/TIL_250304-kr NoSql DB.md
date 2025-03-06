@@ -9,4 +9,5 @@
 	- Cassandra : Column Family
 
 - LSM(log-structured storage engine) Tree 사용으로 빠른 조회 성능 제공한다
-	- append-only(끝에 데이터를 추가로 붙이는 것만 가능한) log file 기반으로 작동한다. 로그 파일이 append-only이므로 도중에 수정되지 않아 더 빠른 정리가 된다. 로그들은 어느정
+	- append-only(끝에 데이터를 추가로 붙이는 것만 가능한) log file 기반으로 작동한다. 로그 파일이 append-only이므로 도중에 수정되지 않아 더 빠른 정리가 된다. 데이터의 추가 수정 삭제 등 변화를 기록한 이 로그파일을 취합해서 조회하여 빠른 조회가 가능하다
+	- 
