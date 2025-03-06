@@ -9,11 +9,13 @@
 - B Tree
 	- 
 - B+ Tree
+	- 
 - LSM Tree
 	- Sorted String Table 
 	- Incoming writing is stored in inmemory storage **memtable** (appended to log file to prevent data loss)
 
 #### 참고
-[LSM Tree](https://www.youtube.com/watch?v=i_vmkaR1x-I)
+[LSM Tree-kr](https://www.youtube.com/watch?v=i_vmkaR1x-I)
 [B-Tree](https://www.youtube.com/watch?v=K1a2Bk8NrYQ)
+[B+Tree-kr](https://www.youtube.com/watch?v=yLe7_3cGSeU)
 [LSM Tree](https://www.youtube.com/watch?v=I6jB0nM9SKU)
