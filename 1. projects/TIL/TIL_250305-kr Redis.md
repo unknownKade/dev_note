@@ -22,8 +22,10 @@ services:
 SET user:count 1  
 GET user:count  
 #increase/decrease
-INCR user:count  
-DECR user:count  
+INCR articles:{id}:today #initialized at 0 if there is no key
+DECR user:count
+#rename
+RENAME articles:{id}:yesterday articles:{id}:today
 #set multiple  
 MSET user:name me user:email asdf@asdf.com  
 MGET user:name user:email
