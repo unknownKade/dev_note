@@ -17,6 +17,7 @@
 ## Search
 - linear search 선형 검색
 - binary search 이진 검색
+	- [[Binary Search]]
 	- search array
 	- search range
 -  String Pattern Matching
