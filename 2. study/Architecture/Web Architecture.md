@@ -6,6 +6,7 @@ Commonly used 3-tier layered architecture. The layers are usually decoupled usin
 
 ### Domain Driven Design
 Each domain is responsible for its own business logic. They are independent logic units that message each other to interact. Data should not move between each domain.
+[[TIL_250227-kr DDD]]
 ### Hexagonal Architecture
 Uses ports and adapters for interacting with the outside of the program.
 - Port : custom interface to application. Ports remain the same regardless of what the external source is.
