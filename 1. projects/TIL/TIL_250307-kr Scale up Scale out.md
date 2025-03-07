@@ -1,0 +1,2 @@
+- Scale-Up : RAM을 늘려서 
+- Scale-Out
