@@ -1,3 +1,4 @@
+밸류 -> 생성이 다른 객체의 생성에 의존된 경우 (예시 order - orderitem 이면 orderitem은 entity가 아니라 value로 이해)
 ### 도메인 주도
 
 - RDS 관점에서 연관 관계가 맞지만 객체 관점에서 맞는지 고민이 필요
