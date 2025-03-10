@@ -3,6 +3,6 @@
 
 ### 필터
 
-- Mono
-- SeverWebExchange
+- Mono : 비동기적 처리 객체. Mono\<Void\>는 아무것도 반환하지 않음
+- SeverWebExchange : HTTP 요청과 응답을 캡슐화한 객체 exchange.getRequest() 
 - 
