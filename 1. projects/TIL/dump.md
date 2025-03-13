@@ -15,6 +15,10 @@ https://github.com/jinho-yoo-jack/wanted-preonboarding-challenge-backend-16/blob
 	- 
 
 
+- db replication
+	- application-port-in 에 command 외에 query
+- in.web.response - responsedto
+- 
 - 담당과 공통 책임
 - 통일성
 - 품질 관심
