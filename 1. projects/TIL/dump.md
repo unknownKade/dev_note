@@ -14,7 +14,7 @@ https://github.com/jinho-yoo-jack/wanted-preonboarding-challenge-backend-16/blob
 	- 주문 취소
 	- 
 
-
+- request -> command -> domain  -> entity -> domain -> web response
 - db replication
 	- application-port-in 에 command 외에 query
 - in.web.response - responsedto
