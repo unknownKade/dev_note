@@ -20,7 +20,7 @@ https://github.com/jinho-yoo-jack/wanted-preonboarding-challenge-backend-16/blob
 @Mapper(componentModel = "spring")
 - @EqualsAndHashCode @NoArgsConstructor(access = AccessLevel.Protected)
 - request -> command -> entity -> domain -> web response
-- domain persistence __
+- persistence -> entity -> domain -> command -> out
 - db replication
 	- application-port-in 에 command 외에 query
 - in.web.response - responsedto
