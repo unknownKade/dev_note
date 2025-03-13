@@ -14,6 +14,7 @@ https://github.com/jinho-yoo-jack/wanted-preonboarding-challenge-backend-16/blob
 	- 주문 취소
 	- 
 
+- generationtype identity
 - request를 커맨드로 바꿔주는건 컨트롤러에서(WebAdaptor)
 @Mapper(componentModel = "spring")
 - @EqualsAndHashCode @NoArgsConstructor(access = AccessLevel.Protected)
