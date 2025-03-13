@@ -14,6 +14,9 @@ https://github.com/jinho-yoo-jack/wanted-preonboarding-challenge-backend-16/blob
 	- 주문 취소
 	- 
 
+- request를 커맨드로 바꿔주는건 컨트롤러에서(WebAdaptor)
+@Mapper(componentModel = "spring")
+- @EqualsAndHashCode @NoArgsConstructor(access = AccessLevel.Protected)
 - request -> command -> domain  -> entity -> domain -> web response
 - db replication
 	- application-port-in 에 command 외에 query
