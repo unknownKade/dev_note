@@ -16,9 +16,11 @@ https://github.com/jinho-yoo-jack/wanted-preonboarding-challenge-backend-16/blob
 
 - generationtype identity
 - request를 커맨드로 바꿔주는건 컨트롤러에서(WebAdaptor)
+- @Builder
 @Mapper(componentModel = "spring")
 - @EqualsAndHashCode @NoArgsConstructor(access = AccessLevel.Protected)
-- request -> command -> domain  -> entity -> domain -> web response
+- request -> command -> entity -> domain -> web response
+- domain persistence __
 - db replication
 	- application-port-in 에 command 외에 query
 - in.web.response - responsedto
