@@ -1,0 +1,17 @@
+- 주문
+	- 주문 생성  -> 배송 생성 이벤트
+	- 주문 수정
+	- 주문 취소
+	- 
+- map struct
+- generationtype identity
+- request를 커맨드로 바꿔주는건 컨트롤러에서(WebAdaptor)
+- @Builder
+@Mapper(componentModel = "spring")
+- @EqualsAndHashCode @NoArgsConstructor(access = AccessLevel.Protected)
+- request -> command -> entity -> domain -> web response
+- persistence -> entity -> domain -> command -> out
+- db replication
+	- application-port-in 에 command 외에 query
+- in.web.response - responsedto
+- service 계층에서만 예외 던지기
