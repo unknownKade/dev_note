@@ -51,7 +51,9 @@ public class DataLoader{
 - Spring RESTDocs
 	- 언제나 API 일치
 	- 문서 양식 작성 필요
-	- TDDㅈ
+	- TDD적합
+	- 테스트 결과 출력 화면은 제공되지 않음
+- RestDocs + Swagger = com.epages.restdocs-api-spec 0.19.2 
 
 ## 문서 보안
 

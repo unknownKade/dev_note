@@ -20,3 +20,4 @@ https://github.com/jinho-yoo-jack/wanted-preonboarding-challenge-backend-16/blob
 - 메시징으로 update 하는 경우 -> kafka 브로커에서 멱등성 키로 비교를 해서 보장한다, 멱등적 소비적 패턴으로 구현
 - SAGA 패턴, Outbox Pattern
 - @ElementCollection
+- 외부에 공개하는건 build/resources/main/static/ 아래로
