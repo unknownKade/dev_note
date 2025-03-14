@@ -8,7 +8,16 @@
 @ActiveProfiles("dev") //application-dev.yml
 public class AuthControllerApiV1TestTemp{
 	@Test
-	public void testArticleGetByIdSuccessByNoAuth() throws 
+	public void testArticleGetByIdSuccessByNoAuth() throws Exception{
+		mockMvc.perfom(
+			MockMvcRequestBuilders.get("/v1/{id}", 2L);
+		)
+		.andExpectAll(
+			MockMvcResultMatchers.status.isOk(),
+			//MockMvcResultMatchers.status.isBadRequest(),
+			//MockMvcResultMatchers.jsonPath("$.message).value("smth went wrong")
+		)
+	}
 }
 ```
 - 더미 데이터 data.sql이나 코드로 추가
