@@ -3,6 +3,7 @@
 
 ``` java
 @SpringBootTest //실제 애플리케이션 다 갖고와서 느림.부분설정가능
+@AutoConfigureRestApi
 @AutoConfigureMockMVC // 환경 모킹으로 HTTP 요청/응답 모의 검증 가능
 @Transactional //각 메서드마다 롤백
 @ActiveProfiles("dev") //application-dev.yml
