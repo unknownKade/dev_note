@@ -20,7 +20,7 @@ public class AuthControllerApiV1TestTemp{
 		)
 	}
 	
-	
+
 	//test마다 로그인을 객체로 전달
 	private MvcResult login()
 	
@@ -44,7 +44,6 @@ public class DataLoader{
 
 	}
 ```
-- ObjectMapper
 
 
 ## Swagger
