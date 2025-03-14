@@ -7,8 +7,9 @@
 @Transactional //각 메서드마다 롤백
 @ActiveProfiles("dev") //application-dev.yml
 public class AuthControllerApiV1TestTemp{
+	
 	@Test
-	public void testArticleGetByIdSuccessByNoAuth() throws Exception{
+	public void testArticleGetByIdSuccessByNoAuth() throws Exception{	
 		mockMvc.perfom(
 			MockMvcRequestBuilders.get("/v1/{id}", 2L);
 		)
@@ -17,6 +18,19 @@ public class AuthControllerApiV1TestTemp{
 			//MockMvcResultMatchers.status.isBadRequest(),
 			//MockMvcResultMatchers.jsonPath("$.message).value("smth went wrong")
 		)
+	}
+	
+	
+	//test마다 로그인을 객체로 전달
+	private MvcResult login()
+	
+	@Test
+	public void somePostTest() throws Exception{
+		RestDTO<ResAuthPostLoginDTOApiV1> resLoginDto = objectMapper.readValue(
+		login().getResposne().getRContentAsString(), new RypeReference<>(){}
+		);
+		mcokMvc.perform(MockMvcRequestBuilder.post("/v1/auth"))
+	
 	}
 }
 ```
