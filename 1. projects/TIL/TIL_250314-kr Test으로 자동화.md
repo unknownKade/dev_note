@@ -47,10 +47,11 @@ public class DataLoader{
 
 
 ## Swagger
-
-
-## RestDoc
-
+- 코드 가독성 보완 SomethingController implements SomethingControllerDocs 
+- Spring RESTDocs
+	- 언제나 API 일치
+	- 문서 양식 작성 필요
+	- TDDㅈ
 
 ## 문서 보안
 
