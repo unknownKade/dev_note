@@ -18,10 +18,10 @@
 - ports are simple interfaces from inside the application to outside 
 	- implemented by adapters
 	- Dependency Inversion - dependency is inverted from use case to adapter
+	- ports are dictated by the usecase not adapter
 
 ## Adapters
-- 
-
+- in(dirving) adapters handle inputs to the application 
 
 
 
