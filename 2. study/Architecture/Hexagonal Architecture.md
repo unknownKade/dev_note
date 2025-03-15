@@ -21,10 +21,9 @@
 	- ports are dictated by the usecase not adapter
 
 ## Adapters
-- in(dirving) adapters handle inputs to the application 
-
-
-
+- in(driving) adapters handle inputs that want the application to do something ( ex web interface)
+- out(driven) adapters are called by usecases( ex database)
+- 
 
 
 # References
