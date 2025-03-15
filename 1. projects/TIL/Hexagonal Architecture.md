@@ -15,7 +15,12 @@
 - has no outward dependency and uses ports
 
 ## Ports
-- ports are simple interfaces that can be called by adapters and is implemented by usecases
+- ports are simple interfaces from inside the application to outside 
+	- implemented by adapters
+	- Dependency Inversion - dependency is inverted from use case to adapter
+
+## Adapters
+- 
 
 
 
