@@ -14,7 +14,8 @@
 - contains all business rule valdiations and logic specific to use case
 - has no outward dependency and uses ports
 
-
+## Ports
+- ports are simple interfaces that can be called by adapters and is implemented by usecases
 
 
 
