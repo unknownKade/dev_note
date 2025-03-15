@@ -2,14 +2,15 @@
 
 
 
-## Domain Objects
+## Domain
 - can contain both state and behavior. the closer state is to behavior the better
 - has no outward dependency
-- provides an api for use cases to operate on them
+	- Single Responsibility Principle
+	- provides an api for use cases to operate on them
+	- is unaffected by other layers and evolves free of dependencies
 
-
-
-
+## UseCases
+- 
 
 
 
