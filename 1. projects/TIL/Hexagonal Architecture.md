@@ -10,7 +10,8 @@
 	- is unaffected by other layers and evolves free of dependencies
 
 ## UseCases
-- how doma
+- class for handling usecases of the application
+- contains all business rule valdiations and logic specific to us
 
 
 
