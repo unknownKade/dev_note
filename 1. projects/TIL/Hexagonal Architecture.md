@@ -11,7 +11,8 @@
 
 ## UseCases
 - class for handling usecases of the application
-- contains all business rule valdiations and logic specific to us
+- contains all business rule valdiations and logic specific to use case
+- has no outward dependency and uses ports
 
 
 
