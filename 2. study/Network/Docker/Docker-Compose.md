@@ -14,20 +14,16 @@ services:
     depends_on: #creates after dependencies are created
       - db
   db:
-    image: postgres
-    environment:
+    image: postgres 
+     environment:
       POSTGRES_PASSWORD: example
-services:
-  db:
-    image: mysql:8.0
-    container_name: mysql-ramos
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      TZ: Asia/Seoul
+      #MYSQL_ROOT_PASSWORD: root
+      #TZ: Asia/Seoul
+    #container_name: mysql-ramos
+    #restart: always
     ports:
       - 3306:3306
-    volumes:
-      - ./mysql-init-files/:/docker-entrypoint-initdb.d
-    platform: linux/x86_64
+    #volumes:
+      #- ./mysql-init-files/:/docker-entrypoint-initdb.d
+    #platform: linux/x86_64
 ```
