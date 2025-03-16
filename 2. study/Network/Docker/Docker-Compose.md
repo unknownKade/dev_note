@@ -1,4 +1,11 @@
 
+
+``` bash
+docker-compose up
+
+```
+
+
 ``` yaml
 
 version: '3' #docker compose file version
