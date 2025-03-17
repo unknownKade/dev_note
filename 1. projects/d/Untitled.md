@@ -15,3 +15,11 @@
 	- application-port-in 에 command 외에 query
 - in.web.response - responsedto
 - service 계층에서만 예외 던지기
+
+``` java
+@FeignClient(name = "hub-service")
+public interface HubFeignClient{
+	@GetMapping("/internal/v1/hubs/{hubId}")
+	HubResponse findById(@PathVariable("hubId") Long hubId);
+}
+```
