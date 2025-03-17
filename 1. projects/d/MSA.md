@@ -23,3 +23,5 @@ public interface HubFeignClient{
 	HubResponse findById(@PathVariable("hubId") Long hubId);
 }
 ```
+
+![[Pasted image 20250318005749.png]]
