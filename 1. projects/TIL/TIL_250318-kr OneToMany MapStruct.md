@@ -26,7 +26,7 @@ public interface OrderPersistenceMapper {
   @Named("toProductEntities")  
   List<OrderProductEntity> toProductEntities(List<OrderProduct> orderProduct);  
 
-//
+//Order 안의 Orderproduct 매핑 반대 매핑도 해서 저장 
   @AfterMapping  
   default void setProducts(@MappingTarget OrderEntity order){  
     order.getOrderProducts()  
