@@ -1,4 +1,3 @@
-
 - .properties .yml 차이
 	- properties는 iso 형식
 	- yml 은 MS에서 확장자 3자리로 만들려고 사용하는 형식
