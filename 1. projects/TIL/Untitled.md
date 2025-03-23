@@ -1,1 +1,1 @@
-[MSA CQRS materialized biew -skt](https://www.sktenterprise.com/bizInsight/blogDetail/dev/8047)
+[MSA CQRS materialized view -skt](https://www.sktenterprise.com/bizInsight/blogDetail/dev/8047)
