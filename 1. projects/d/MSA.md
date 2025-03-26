@@ -1,8 +1,4 @@
-- 주문
-	- 주문 생성  -> 배송 생성 이벤트
-	- 주문 수정
-	- 주문 취소
-	- 
+
 - map struct
 - generationtype identity
 - request를 커맨드로 바꿔주는건 컨트롤러에서(WebAdaptor)
