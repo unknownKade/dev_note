@@ -1,7 +1,7 @@
 
 #### Factorial
-n! = n *  (n-1)!
-Time : O(n) Memory: O(n)
+- Time : O(n) goes through all loops so the same as using a while loop in terms of time complexity
+- Memory: O(n) saves each function computing during the recursion
 ``` java
 int factorial(int n){
 	if n <= 1{
