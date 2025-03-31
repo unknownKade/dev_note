@@ -1,7 +1,7 @@
 
 #### Factorial
 n! = n *  (n-1)!
-
+Time : O(n) Memory: O(n)
 ``` java
 int factorial(int n){
 	if n <= 1{
