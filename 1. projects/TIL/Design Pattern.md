@@ -15,5 +15,22 @@
 - 코드 재사용
 - 개방 ㅍㅖ쇄
 - 행동 위임(Delegation)
-	- Composition(has-a) over Inheritence 컴포지션을 통한 기능 확장을 하면 상속의 강한 커플링 없음 ``
+	- Composition(has-a) over Inheritence 컴포지션을 통한 기능 확장을 하면 상속의 강한 커플링 없음 ``class Order extends
 	- 상태, 전략 패턴
+- 변경 격리(Isolating Changes)
+	- 특정 컴포넌트로 격리(인프라)
+- 상태 관리(State management)
+
+
+### SOLID
+- 단일 책임(SRP) : 
+- 개방-폐쇄(OCP): 확장에는 열려 있고
+- 리스코프 치환 원칙(LSP)
+- 인터페이스 분리 원칙(ISP)
+- 의존성 역전 원칙(DIP)
+
+## 생성 패턴
+
+
+## 구조 패턴
+- Facade : 섭
