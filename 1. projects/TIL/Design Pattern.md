@@ -65,4 +65,6 @@ class BankingStrategy implements PaymentStrategy{
 - 구조를 정의하고 세부 구현은 서브 클래스에 위임
 	- 변경 가능한 메소드는  추상 메소드
 	- 알고르짐의 제어 흐름은 부모 클래스가 담당
-	- primitiveOperations 은 무조건 구체 구현, hook Methods은 선택 구현
+	- primitiveOperations 은 무조건 구체 구현 `` protected abstract yeup()
+	- hook Methods은 선택 구현 ``protected boolean hook(){ return true}
+	- 
