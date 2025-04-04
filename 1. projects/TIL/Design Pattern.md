@@ -33,4 +33,26 @@
 
 
 ## 구조 패턴
-- Facade : 섭
+- Facade : 복잡한 서브 시스템에 단순화된 인터페이스 제공
+- Proxy : 
+
+## 행위 패턴(Behaviorial Pattern)
+- Strategy Pattern(전략 패턴)
+	- 행동(알고리즘)을 캡슐화하여 동적으로 바뀌는 디자인 패턴
+``` java
+interface PaymentStrategy{
+	void processPayment(int amount);
+}
+
+class NaverPayStrategy implements PaymentStrategy{
+	@Override
+	void processPyament(){
+	}
+}
+
+class NaverPayStrategy implements PaymentStrategy{
+	@Override
+	void processPyament(){
+	}
+}
+```
