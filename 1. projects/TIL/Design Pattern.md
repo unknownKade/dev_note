@@ -39,6 +39,7 @@
 ## 행위 패턴(Behaviorial Pattern)
 - Strategy Pattern(전략 패턴)
 	- 행동(알고리즘)을 캡슐화하여 동적으로 바뀌는 디자인 패턴
+	- refactoring 기법 중 extract method ->extract class 고려 
 ``` java
 interface PaymentStrategy{
 	void processPayment(int amount);
@@ -50,7 +51,7 @@ class NaverPayStrategy implements PaymentStrategy{
 	}
 }
 
-class NaverPayStrategy implements PaymentStrategy{
+class BankingStrategy implements PaymentStrategy{
 	@Override
 	void processPyament(){
 	}
