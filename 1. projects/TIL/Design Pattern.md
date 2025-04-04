@@ -68,7 +68,6 @@ class BankingStrategy implements PaymentStrategy{
 	- primitiveOperations 은 무조건 구체 구현 `` protected abstract yeup()
 	- hook Methods은 선택 구현 ``protected boolean hook(){ return true}
 
-
 ## Command Pattern (커맨드 패턴)
 - 명령(요청)을 객체로 캡슐화하고 실행을 분리하는 디자인 패턴
 - 작업 큐잉, 로깅, 취소(undo)기능 구현에 용이
