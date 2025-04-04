@@ -40,6 +40,9 @@
 - Strategy Pattern(전략 패턴)
 	- 행동(알고리즘)을 캡슐화하여 동적으로 바뀌는 디자인 패턴
 	- refactoring 기법 중 extract method ->extract class 고려 
+- 전략 패턴 잦은 실수
+	- 전략을 너무 세부화
+	- 분리의 목적이 뚜렷해지기 전에 굳이 분리 하지 말자(don't overengineer)
 ``` java
 interface PaymentStrategy{
 	void processPayment(int amount);
@@ -57,3 +60,9 @@ class BankingStrategy implements PaymentStrategy{
 	}
 }
 ```
+
+## Template Method Pattern
+- 구조를 정의하고 세부 구현은 서브 클래스에 위임
+	- 변경 가능한 메소드는  추상 메소드
+	- 알고르짐의 제어 흐름은 부모 클래스가 담당
+	- primitiveOperations 은 무조건 구체 구현, hook Methods은 선택 구현
