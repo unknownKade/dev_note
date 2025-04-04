@@ -73,4 +73,9 @@ class BankingStrategy implements PaymentStrategy{
 - 명령(요청)을 객체로 캡슐화하고 실행을 분리하는 디자인 패턴
 - 작업 큐잉, 로깅, 취소(undo)기능 구현에 용이
 - 확장성이 좋아서 새로운 명령 쉽게 추가 가능함1
+## Observer Pattern
+- Bacgk
+## Adapter pattern
+- 
+## Composite Pattern
 - 
