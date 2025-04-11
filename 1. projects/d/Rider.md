@@ -10,3 +10,19 @@ websocket Kafka 실시간 통신
 
 [대략적인 프로젝트 구조(모노 리포) 및 DDD 5대 개념 구현 예시](https://github.com/dannyseo9202/second-project-example)
 [프로젝트2 가이드](https://substantial-visage-888.notion.site/2-1b2861c68fb180cc9a72d85aaaf2f4ba)
+
+
+localhost:9093 : ui for apache kafka
+
+```
+server:
+
+  port: 18081
+
+  
+
+jwt:
+  secret: 3ce7f1ea6fa22a731c49f6e3b312bba19b07138faf89f2b8f3943da2c894e383
+  access-token-expiration: 60000
+  refresh-token-expiration: 600000
+```
